@@ -1,32 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Homework #1</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<meta charset="utf-8">
+	<meta name="viewport" content="device-width, initial-scale=1.0">
+	<title>Robert Stewart/Contact</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<div class="container">
-		<header>
-			<div id="name">Robert Stewart</div>
-			<nav>
+	<header>
+		<div class="container">
+			<div class="name">
+				<div class="logo">Robert Stewart
+				</div>
+			</div>
+				
+			<nav class= "nav">
 				<ul>
-					<li><a href="#">About</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="#" class="active">About</a></li>
+					<li><a href="portfolio.html" class="active">Portfolio</a></li>
+					<li><a href="contact.html" class="active">Contact</a></li>
 				</ul>
-
 			</nav>
-		</header>
-	<div class="sizing">
-		<div class="body">
+		</div>	
 			
-		<!-- Main content 
-		<div class="main">-->
+	</header>
+	<div class="content">
+		<div class="main">
 			<h1 class="page-title">Contact</h1>
 			<form action="#" class="contact">
-				<label for="cname">Name</label>
-				<input type="text" name="cname" id="cname" placeholder="Jane Smith">
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" placeholder="Jane Smith">
 				<label for="email">Email</label>
 				<input type="text" name="email" id="email" placeholder="example@gmail.com">
 				<label for="name">Message</label>
@@ -34,25 +38,21 @@
 				<input type="submit" value="Submit">
 			</form>
 
-
+		</div> 
+		<div class="sidebar">
+			<h2 class ="sidebar-title">Connect with Me</h2>
+			<ul class="social">
+				<li><a href="https://github.com/bobstew/"><img src="assets/images/if_github_square_black_107109.png" alt="github"></a></li>
 			
-			
-		</div>
-		<div class="sideMenu">
-			<h2>Connect with Me</h2>
-			<ul>
-				<li><a href="https://github.com/bobstew/"><img src="assets/images/if_github_square_black_107109.png" alt="GitHub"></a></li>
-				<li><a href="https://linkedin.com/in/robert-stewart-pmp8386b546/"><img src="assets/images/if_linkedin_square_color_107091.png" alt="LinkedIn"></a></li>
+				<li><a href="https://linkedin.com/in/robert-stewart-pmp8386b546"><img src="assets/images/if_linkedin_square_color_107091.png" alt="LinkedIn"></a></li>
 				<li><a href="https://stackoverflow.com/users/story/9159429#"><img src="assets/images/if_overflow_334695.png" alt="Stack Overflow"></a></li>
+			
 			</ul>
-		</div>
-	</div>	
 		
-
+		</div>
 	</div>
 	<footer>@ Copyright 2018 Robert Stewart</footer>
+	
 
 </body>
 </html>
-
-
